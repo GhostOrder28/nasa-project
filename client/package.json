@@ -13,6 +13,7 @@
     "start": "BROWSER=none react-scripts start",
     "build": "BUILD_PATH=../server/public react-scripts build",
     "test": "react-scripts test",
+    "test:nowatch": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -35,5 +36,6 @@
   },
   "overrides": {
     "nth-check@1.0.2": "2.0.1"
-  }
+  },
+  "jest.autoRun": "off"
 }

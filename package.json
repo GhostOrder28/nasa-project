@@ -13,7 +13,7 @@
     "deploy": "npm run build --prefix client && npm start --prefix server",
     "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server",
     "test": "npm run test --prefix server && npm run test --prefix client",
-    "test:nowatch": "npm run test:nowatch --prefix server && npm run test --prefix client"
+    "test:nowatch": "npm run test --prefix server && npm run test:nowatch --prefix client"
   },
   "keywords": [],
   "author": "",

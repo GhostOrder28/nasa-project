@@ -13,7 +13,6 @@
     "start": "BROWSER=none react-scripts start",
     "build": "BUILD_PATH=../server/public react-scripts build",
     "test": "react-scripts test",
-    "test:nowatch": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
